@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-COPY ./zuul-proxy-*.jar zuul-proxy.jar
+COPY ./target/zuul-proxy-*.jar zuul-proxy.jar
 
 EXPOSE 9114
 
